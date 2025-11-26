@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table{
+       width: 100%; 
+      }
+    table, th, td { 
+      border: solid 1px #fefefe;
+      border-collapse: collapse; 
+      padding: 2px 3px; 
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    <input type="button" id="bt" value="Add row" onclick="addRow()" />
+  </p>
+
+  <div id="container">
+    <table id='tab'>
+      <tr>
+        <th></th>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+    </table>
+  </div>
+
+  <script>
+    let iCnt = 1;
+  
+    let addRow = () => {
+      let myTable = document.getElementById('tab');
+  
+      let rowCnt = myTable.rows.length; 
+      let tr = myTable.insertRow(rowCnt);   
+      let headCount = myTable.rows[0].getElementsByTagName('th').length;	
+
+      for (let c = 0; c < headCount; c++) {
+        let td = document.createElement('td');    
+        td = tr.insertCell(c);
+  
+        if (c === 0) {      
+          let span = document.createElement('span');
+  
+          span.innerHTML = iCnt;
+          td.appendChild(span);
+        }
+        else {
+          let ele = document.createElement('input');
+          ele.setAttribute('type', 'text');
+          ele.setAttribute('value', '');
+  
+          td.appendChild(ele);
+        }
+      }
+      iCnt += 1;
+    }
+  </script>
+</body>
+</html>

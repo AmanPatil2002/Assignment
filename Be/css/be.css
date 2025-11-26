@@ -1,0 +1,1065 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*________________________________________________home________________________________________________*/
+.home{
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    height: 730px;
+}
+.bars{
+    margin-left: 30px;
+    display: none;
+}
+.bars a i{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 25px;
+    margin-right: 15px;
+}
+.logo-img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+nav{
+    margin-right: 80px;
+    margin-top: -9%;
+}
+.home-ul{
+    list-style-type: none;
+    text-align: right;
+    padding: 25px;
+}
+.home-ul li{
+    display: inline-block;
+    height: 100px;
+    padding-top: 35px;
+}
+.home-ul li:hover{
+    background-color: orange;
+}
+.home-ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/* .bars{
+    margin-left: 30px;
+    display: none;
+}
+.bars a i{
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+} */
+.black{
+    margin-top: 5%;
+    margin-left: 22%;
+}
+#black-div{
+    background-color: black;
+    width: 60%;
+    height: 70%;
+    opacity: 50%;
+}
+.black h2{
+    color: white;
+    font-weight: 700;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top:7%;
+    text-transform: uppercase;
+    padding-bottom: 4%;
+}
+.black h2 span{
+    color: orange;
+}
+.black h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.black p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 2%;
+    padding-bottom: 30px;
+}
+.black a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    border: 2px solid white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding: 14px;
+    margin-top: 5%;
+    margin-left: 43%;
+}
+.black-work:hover{
+    background-color: orange;
+    color: black;
+}
+/*________________________________________________home ends________________________________________________*/
+/*________________________________________________aboutUs starts________________________________________________*/
+.aboutUs{
+    background-color: white;
+    height: 415px;
+}
+.about{
+    display: flex;
+}
+#div1{
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-right: 1%;
+    width: 50%;
+    height: 800px;
+}
+#div1 h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#div1 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    padding-top: 5px;
+    word-spacing: 2px;
+}
+#about-hr{
+    display: flex;
+    padding-bottom: 10px;
+}
+#about-hr #black-hr,#about-hr #yellow-hr{
+    width: 49%;
+    height: 5px;
+}
+#about-hr #black-hr{
+    background-color: black;
+}
+#about-hr #yellow-hr{
+    background-color: yellow;
+}
+#aboutUs-image{
+    width: 720px;
+}
+/*________________________________________________aboutUs ends________________________________________________*/
+/*________________________________________________team starts________________________________________________*/
+.team{
+    background-image: url(../img/team-bg.jpg);
+    height: 700px;
+    background-size: contain;
+}
+.team h2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+}
+.team h5{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+.black-ul{
+    display: flex;
+    height: 40%;
+    justify-content: space-evenly;
+    transition: transform, 2s;
+}
+.black-ul li{
+    text-align: center;
+    background-color: white;
+    height: 360px;
+}
+.black-ul li:hover{
+    transform: scale(1.1,1.1);
+}
+.black-ul li h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+}
+.black-ul li:hover h4{
+    color: orange;
+}
+.black-ul li p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+}
+.black-ul li i{
+    color: orange;
+    padding: 10px;
+    padding-bottom: 3px;
+}
+/*________________________________________________aboutUs ends________________________________________________*/
+/*________________________________________________service starts________________________________________________*/
+.service{
+    background-color: white;
+    height: 415px;
+}
+.service-div{
+    display: flex;
+}
+#service-div2{
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-right: 1%;
+    width: 50%;
+    height: 800px;
+}
+#service-div2 h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#service-div2 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    padding-top: 5px;
+    word-spacing: 2px;
+}
+#service-hr{
+    display: flex;
+    padding-bottom: 10px;
+}
+#service-hr #black-hr,#service-hr #yellow-hr{
+    width: 49%;
+    height: 5px;
+}
+#service-hr #black-hr{
+    background-color: black;
+}
+#service-hr #yellow-hr{
+    background-color: yellow;
+}
+#service-image{
+    width: 720px;
+}
+/*________________________________________________service ends________________________________________________*/
+/*________________________________________________service2 starts________________________________________________*/
+.service2{
+    background-image: url(../img/services-bg.jpg);
+    height: 650px;
+}
+.service2-ul{
+    display: flex;
+    height: 40%;
+    justify-content: space-evenly;
+    transition: transform, 2s;
+    list-style-type: none;
+}
+.service2-ul li{
+    text-align: center;
+    background-color: white;
+    height: 360px;
+    width: 20%;
+    margin-top: 12%;
+}
+.service2-ul li h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+    color: white;
+}
+.service2-ul li h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+}
+.service2-ul li p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+}
+.service2-ul li:hover{
+    transform: scale(1.1,1.1);
+}
+.service2-ul li:hover i{
+    color: orange;
+    background-color: black;
+}
+.service2-ul li i{
+    padding: 8px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-top: -10%;
+}
+.service2-ul li .green{
+    margin-top: -6%;
+    padding-top: 12%;
+    background-color: rgb(5, 194, 5);
+}
+.service2-ul li .orange{
+    margin-top: -6%;
+    padding-top: 12%;
+    background-color: orange;
+}
+.service2-ul li .blue{
+    margin-top: -6%;
+    padding-top: 12%;
+    background-color: rgb(7, 128, 227);
+}
+.service2-ul li .orangered{
+    margin-top: -6%;
+    padding-top: 12%;
+    background-color: rgb(219, 61, 4);
+}
+.white{
+    margin-top: 20px;
+    height: 200px;
+    background-color: white;
+}
+.white h4{
+    padding-top: 4%;
+}
+.white p{
+    padding-top: 2%;
+    padding: 10px;
+    font-size: 18px;
+}
+.plus {
+    color: white;  
+    text-align: center;
+    font-size: 1px;
+    padding: 3px;
+    margin-top: 10%;
+}
+/*________________________________________________service2 ends________________________________________________*/
+/*________________________________________________icons starts________________________________________________*/
+.icons{
+    background-color: rgb(34, 29, 29);
+    height: 300px;
+}
+.icons-ul{
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    margin-top: 2%;
+}
+.icons-ul li{
+    padding: 20px;
+    justify-content: center;
+}
+.icons h3{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6%;
+}
+.icons i{
+    color: rgb(255, 221, 0);
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.icons h4{
+    color: white;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.icons h5{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+/*________________________________________________icons ends________________________________________________*/
+/*________________________________________________gallery starts________________________________________________*/
+.gallery{
+    background-color: white;
+    height: 1200px;
+}
+.gallery h2{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gallery h4{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.gallery-nav{
+    margin-top: 4%;
+    margin-left: 30%;
+}
+.gallery-ul{
+    list-style-type: none;
+    display: flex;
+}
+.gallery-ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.gallery-ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.image-row1,.image-row2,.image-row3{
+    margin-top: 3%;
+    display: flex;
+}
+.image-row1 img{
+    width: 25%;
+}
+.image-row2 img{
+    width: 25%;
+}
+.image-row3 img{
+    width: 25%;
+}
+/*________________________________________________gallery ends________________________________________________*/
+/*________________________________________________blog starts________________________________________________*/
+.blog{
+    background-color: orange;
+    height: 750px;
+}
+.blog-header{
+    background-color: rgb(34, 29, 29);
+    height: 130px;
+}
+.blog-header h2{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog-header h4{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blog-main{
+    margin-left: 2%;
+}
+.blog-context{
+    display: flex;
+    transition: transform, 2s;
+}
+.blog1:hover,.blog2:hover,.blog3:hover{
+    transform: scale(1.1,1.1);
+}
+.blog1 img,.blog2 img,.blog3 img{
+    margin-top: 3%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 300px;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.Content{
+    padding: 20px;
+}
+.Content h1{
+    color: rgb(41, 39, 39);
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Content h1 span{
+    font-size: 20px;
+}
+.Content h3{
+    padding-top: 10px;
+} 
+.Content p{
+    color: gray;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+.Content a{
+    font-size: 25px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: rgb(33, 31, 31);
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-transform: uppercase;
+}
+.Content a:hover{
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+}
+/*________________________________________________blog ends________________________________________________*/
+/*________________________________________________contact starts________________________________________________*/
+.contact{
+    background-image: url(../img/contact-bg.jpg);
+    height: 700px;
+}
+.contact h2{
+    padding-top: 6%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact h4{
+    padding-top: 1%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5%;
+}
+.contact form{
+    margin-left: 15%;
+}
+input[type=text],
+input[type=email]{
+    width: 40%;
+    padding: 8px;
+}
+textarea{
+    margin-top: 20px;
+    width: 80%;
+    padding: 8px;
+    padding-bottom: 5%;
+}
+input[type=submit]{
+    background-color: orange;
+    color: black;
+    padding: 15px;
+    margin-left: 70%;
+    margin-top: 1%;
+    font-size: 15px;
+}
+input[type=submit]:hover{
+    color: orange;
+    border: 1px solid orange;
+    background-color: black;
+    opacity: 40%;
+}
+/*________________________________________________contact ends________________________________________________*/
+/*________________________________________________copy starts________________________________________________*/
+.copy{
+    display: flex;
+    height: 350px;
+    margin-bottom: -10%;
+}
+.copy-div1{
+    background-image: url(../img/footer-bg.jpg);
+    width: 50%;
+    height: 350px;
+}
+.Beicons{
+    padding-top: 10%;
+    display: flex;
+    margin-left: 25%;
+}
+.Beicons i{
+    border: 1px solid white;
+    color: white;
+    margin: 2%;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.Beicons i:hover{
+    color: black;
+    background-color: orange;
+}
+.copy-div1 h2{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    font-size: 16px;
+    font-weight: 100;
+}
+.copy-div1 h2 span{
+    color: orange;
+}
+.copy-div2{
+    background-color: orange;
+    width: 50%;
+}
+.copy-div2 h2{
+    color: white;
+    margin-top: 10%;
+    margin-left: 14%;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.copy-div2 h3{
+    color: white;
+    margin-left: 15%;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copy-div2 h3 a{
+    text-decoration: none;
+    color: black;
+}
+/*________________________________________________copy ends________________________________________________*/
+/*________________________________________________Arrow________________________________________________*/
+.arrow{
+    color: orangered;
+    padding: 8px;
+    font-size: 30px;
+    position: sticky;
+    left: 95%;
+    bottom: 1%;
+    line-height: 20px;
+}
+/*________________________________________________Arrow________________________________________________*/
+
+@media (max-width:768px){
+    .home{
+        height: 550px;
+    }
+    .logo-img{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 15%;
+    }
+    nav{
+        margin-right: 10px;
+    }
+    .home-ul{
+        padding: 10px;
+    }
+    .home-ul li{
+        height: 70px;
+        padding-top: 34px;
+    }
+    .home-ul li a{
+        font-size: 14px;
+    }
+    .black h2{
+        font-size: 30px;
+    }
+    .black h4{
+        font-size: 28px;
+    }
+    .black p{
+        font-size: 18px;
+    }
+    .black a{
+        font-size: 20px;
+        margin-left: 40%;
+    }/*____________________________*/
+    .aboutUs{
+        height: 850px;
+    }
+    .about{
+        height: 800px;
+        background-color: white;
+        width: 768px;
+        display: block;
+    }
+    #div1{
+        width: 100%;
+        height: 400px;
+        margin-left: 5%;
+    }
+    #div1 h2{
+        font-size: 32px;
+    }
+    #div1 p{
+        font-size: 20px;
+    }
+    #about-hr{
+        display: flex;
+        padding-bottom: 10px;
+    }
+    #about-hr #black-hr,#about-hr #yellow-hr{
+        width: 49%;
+        height: 5px;
+    }
+    #div2{
+        width: 50%;
+        margin-left: 6%;
+    }
+    .aboutUs-image{
+        height: 592px;
+        width: 80%;
+    } 
+    /*____________________________*/
+    .team{
+        height: 1700px;
+    }
+    .team h2{
+        font-size: 50px;
+    }
+    .team h5{
+        font-size: 20px;
+    }
+    .black-ul{
+        display: block;
+        margin-left: 35%;
+    }
+    .black-ul li{
+        width: 52%;
+        margin-top: 10px;
+    }
+    /*____________________________*/
+    .service{
+        height: 815px;
+    }
+    .service-div{
+        display: block;
+        margin-left: 5%;
+        width: 90%;
+    }
+    #service-div2{
+        width: 100%;
+        height: 400px;
+    }
+    /*____________________________*/
+    .service2-ul{
+        display: flex;
+    }
+    .service2-ul li{
+        width: 24%;
+    }
+    .white h4{
+        font-size: 16px;
+    }
+    /*____________________________*/
+    .icons-ul{
+        margin-top: 5%;
+    }
+    .icons-ul li{
+        padding: 10px;
+    }
+    .icons h3{
+        padding-top: 8%;
+    }
+    /*____________________________*/
+    .gallery{
+        height: 680px;
+    }
+    .gallery-nav{
+        margin-left: 16%;
+    }
+    /*____________________________*/
+    .blog{
+        height: 850px;
+    }
+    .blog-main{
+        margin-left: 10px;
+    }
+    .blog1,.blog2,.blog3{
+        height: 200px;
+    }
+    /*____________________________*/
+    .contact{
+        height: 400px;
+    }
+    .contact form{
+        margin-left: 5%;
+    }
+    input[type=text],
+    input[type=email]{
+    width: 45%;
+    padding: 8px;
+    }
+    textarea{
+        width: 90%;
+    }
+    input[type=submit]{
+        margin-left: 73%;
+    }
+    /*____________________________*/
+    .copy{
+        height: 250px;
+    }
+    .copy-div1{
+        height: 250px;
+    }
+    .Beicons{
+        padding-top: 15%;
+        margin-left: 8%;
+    }
+    .Beicons i{
+        margin: 2%;
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+    .copy-div2 h2{
+        margin-top: 6%;
+        font-size: 20px;
+    }
+    /*____________________________*/
+}
+
+@media (max-width:428px){
+    .logo-img{
+        margin-left: 190px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    nav{
+        margin-top: -3%;
+    }
+    .home-ul{
+        padding: 10px;
+        margin-left: 18px;
+        padding-right: 40px;
+    }
+    .home-ul li{
+        padding-top: 20px;
+        width: 33;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .black{
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+    #black-div{
+        background-color: black;
+        width: 80%;
+        height: 55%;
+        opacity: 50%;
+    }
+    .black h2{
+        font-size: 22px;
+    }
+    .black h4{
+        font-size: 18px;
+    }
+    .black p{
+        font-size: 14px;
+    }
+    .black a{
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 35%;
+    }
+    /*____________________________*/
+    .aboutUs{
+        height: 650px;
+    }
+    .about{
+        display: contents;
+    }
+    #div1{
+        margin-left: 5%;
+        width: 90%;
+    }
+    #div1 h2{
+        font-size: 22px;
+    }
+    #div1 p{
+        font-size: 14px;
+    }
+    #div1 h2{
+        font-size: 30px;
+    }
+    #div{
+        margin: -1%;
+    }
+    #div2 img{
+        margin: -1%;
+        margin-top: -25%;
+        margin-left: -10%;
+        width: 480px;
+        height: 300px;
+    }
+    /*____________________________*/
+    .team h2{
+        font-size: 30px;
+    }
+    .team h5{
+        font-size: 18px;
+    }
+    .black-ul{
+        display: block;
+        margin-left: 14%;
+        padding-top: 20px;
+    }
+    .black-ul li{
+        width: 80%;
+    }
+    /*____________________________*/
+    .service{
+        height: 650px;
+    }
+    .service-div{
+        display: block;
+        margin-left: 2%;
+        width: 90%;
+    }
+    #service-div1 img{
+        margin-left: -2%;
+        width: 480px;
+        height: 300px;
+    }
+    #service-div2{
+        width: 100%;
+        height: 400px;
+    }
+    #service-div2 h2{
+        font-size: 22px;
+    }
+    #service-div2 p{
+        font-size: 14px;
+    }
+    /*____________________________*/
+    .service2{
+        height: 1700px;
+    }
+    .service2-ul{
+        display: block;
+        padding-top: 5%;
+        margin-left: 15%;
+    }
+    .service2-ul li{
+        width: 70%;
+    }
+    .white h4{
+        font-size: 18px;
+    }
+    /*____________________________*/
+    .icons{
+        height: 220px;
+    }
+    .icons-ul{
+        margin-top: 5%;
+    }
+    .icons-ul li{
+        padding: 1px;
+    }
+    .icons-ul li i{
+        font-size: 30px;
+    }
+    .icons-ul li h5{
+        margin-left: 15px;
+    }
+    /*____________________________*/
+    .gallery{
+        height: 450px;
+    }
+    .gallery-nav{
+        margin-left: 2%;
+    }
+    .gallery-ul li a{
+        font-size: 16px;
+        margin-left: -5%;
+    }
+    /*____________________________*/
+    .blog{
+        height: 1880px;
+    }
+    .blog-context{
+        display: block;
+    }
+    .blog1,.blog2,.blog3{
+        
+        height: 25%;
+    }
+    /*____________________________*/
+    .contact{
+        height: 350px;
+    }
+    input[type=text],
+    input[type=email]{
+        width: 45%;
+        padding: 10px;
+    }
+    textarea{
+        margin-top: 20px;
+        width: 92%;
+        padding: 10px;
+        padding-bottom: 6%;
+    }
+    input[type=submit]{
+        background-color: orange;
+        color: black;
+        padding: 15px;
+        margin-left: 63%;
+        margin-top: 1%;
+        font-size: 15px;
+    }
+    /*____________________________*/
+    .copy{
+        height: 200px;
+    }
+    .copy-div1{
+        height: 200px;
+    }
+    .Beicons{
+        padding-top: 20%;
+        margin-left: 1%;
+    }
+    .Beicons i{
+        border: 1px solid white;
+        color: white;
+        margin: 1%;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 50%;
+    }
+    .copy-div1 h2{
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .copy-div2 h2{
+        margin-top: 5%;
+        margin-left: 8%;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .copy-div2 h3{
+        font-size: 14px;
+    }
+    /*____________________________*/
+}
